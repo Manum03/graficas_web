@@ -1,0 +1,27 @@
+{
+  "name": "web-de-graficas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "next": "^16.2.3",
+    "react": "^18",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^18",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^10.2.0",
+    "eslint-config-next": "^16.2.3",
+    "typescript": "^5"
+  }
+}
